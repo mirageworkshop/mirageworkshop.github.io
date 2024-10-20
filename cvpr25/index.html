@@ -1,0 +1,1507 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<style>
+a:link {
+  color: orange; <!--green;-->
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: orange; <!--pink;-->
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: pink; <!--yellow;-->
+  background-color: transparent;
+  text-decoration: underline;
+}
+</style>
+
+<head>
+  <meta charset="utf-8">
+  <title>MiRAGE 2025 - Multimodal Understanding for Interactive Robot Action Generation</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="" name="keywords">
+  <meta content="" name="description">
+
+  <!-- Favicons -->
+  <link href="img/cvpr25.png" rel="icon">
+  <link href="img/cvpr25.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Raleway:300,400,500,700,800" rel="stylesheet">
+
+  <!-- Bootstrap CSS File -->
+  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Libraries CSS Files -->
+  <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="lib/animate/animate.min.css" rel="stylesheet">
+  <link href="lib/venobox/venobox.css" rel="stylesheet">
+  <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+  <!-- Main Stylesheet File -->
+  <link href="css/style.css" rel="stylesheet">
+
+  <!-- =======================================================
+    Theme Name: TheEvent
+    Theme URL: https://bootstrapmade.com/theevent-conference-event-bootstrap-template/
+    Author: BootstrapMade.com
+    License: https://bootstrapmade.com/license/
+  ======================================================= -->
+</head>
+
+<body>
+
+  <!--==========================
+    Header
+  ============================-->
+  <header id="header"  class="header-fixed">
+    <div class="container">
+
+      <div id="logo" class="pull-left">
+        <!-- Uncomment below if you prefer to use a text logo -->
+        <!-- <h1><a href="#main">C<span>o</span>nf</a></h1>-->
+        <!-- <a href="#intro" class="scrollto"><img src="img/logo.png" alt="" title=""></a> -->
+        <a href="#intro" class="scrollto"><p style="font-size:30px;color:white">MiRAGE 2025</p></a>
+      </div>
+
+      <nav id="nav-menu-container">
+        <ul class="nav-menu">
+          <li class="menu-active"><a href="#intro">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#speakers">Speakers</a></li>
+          <li><a href="#schedule">Schedule</a></li>
+		  <li><a href="#submission">Submission</a></li>
+          <li><a href="#venue">Venue</a></li>
+          <!-- <li><a href="#hotels">Hotels</a></li> -->
+          <!-- <li><a href="#gallery">Gallery</a></li> -->
+          <!-- <li><a href="#supporters">Sponsor</a></li> -->
+          <!-- <li><a href="#contact">Contact</a></li> -->
+          <li><a href="#organizers">Contact</a></li>
+          <!-- <li><a href="https://wvlar.github.io/iccv23/">Past Workshop</a></li> -->
+		  <!-- <li><a class="btn navbar-btn mx-2 text-white btn-outline-light" href="https://cmt3.research.microsoft.com/ADFM2024" target="_blank" rel="noopener noreferrer">CMT</a></li> -->
+		  <!-- <li><a class="btn navbar-btn mx-2 text-white btn-outline-light" href="https://eval.ai/web/challenges/challenge-page/2088/overview" target="_blank" rel="noopener noreferrer">Challenge</a></li> -->
+		  <!-- <li><a class="btn navbar-btn mx-2 text-white btn-outline-light" href="https://smartdataset.github.io/smart101/" target="_blank" rel="noopener noreferrer">SMART-101</a></li> -->
+	      <!-- <li><a href="../index.html#AIBSD_series">AIBSD Series</a></li> -->
+          <!-- <li class="buy-tickets"><a href="#buy-tickets">Buy Tickets</a></li> -->
+        </ul>
+      </nav><!-- #nav-menu-container -->
+    </div>
+  </header><!-- #header -->
+
+  <!--==========================
+    Intro Section
+  ============================-->
+  <section id="intro">
+    <div class="intro-container wow fadeIn">
+      <!-- <h1 class="mb-4 pb-0">The Annual<br><span>Marketing</span> Conference</h1> -->
+	  <h1 class="mb-4 pb-0">Multimodal Understanding for Interactive Robot Action Generation</h1>
+	  <h1 class="mb-4 pb-0">(MiRAGE)</h1>
+      <p class="mb-4 pb-0">In Conjunction with the <a href="https://cvpr.thecvf.com/Conferences/2025" target="_blank" rel="noopener noreferrer">IEEE/CVF Conference on Computer Vision and Pattern Recognition 2025</a> (Proposed)</p>
+	  <!-- <p class="mb-4 pb-0">2pm - 6pm IDT on October 24, 2022</p> -->
+	  <p class="mb-4 pb-0">Music City Center, Nashville, TN, USA</p>
+	  <!-- <p class="mb-4 pb-0">2:00pm - 5:25pm KST on August 4, 2024</p> -->
+	  <p class="mb-4 pb-0">June 11, 2025 or June 12, 2025 (exact date TBD)</p>
+	  <!-- <p class="mb-4 pb-0"><a href="https://www.youtube.com/channel/UCzlKSQ66EGrg8MupoqC1shA/live" target="_blank" rel="noopener noreferrer">YouTube Live Stream Link / Video Recording</a></p> -->
+      <!--
+	  <a href="https://www.youtube.com/watch?v=jDDaplaOz7Q" class="venobox play-btn mb-4" data-vbtype="video"
+        data-autoplay="true"></a>
+		-->
+      <a href="#about" class="about-btn scrollto">About MiRAGE 2025</a>
+    </div>
+  </section>
+
+  <main id="main">
+
+    <!--==========================
+      About Section
+    ============================-->
+    <section id="about">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <h2>About MiRAGE 2025</h2>
+            <p>Effective human-robot collaboration for shared goals is necessary for the seamless integration of robots in human daily lives. To realize such effective human-robot collaborative systems, (1) multimodal scene understanding, (2) robot action planning, and (3) robot manipulation, are essential to provide robots with the capability to interpret their environment, interact with humans based on such understanding, and execute planned actions. This goal lies at the intersection of multiple avenues of research in computer vision, audio, speech, physical sensing/manipulation, and natural language processing. Research on human-robot collaboration technologies has been accelerated to solve issues in different layers divided into various academic communities. The focus of this workshop is to bring together researchers in different fields working on multimodal understanding for modeling human demonstration understanding, robot action planning, and human-robot interaction, to position the current research progress within the goal of achieving human-like machine intelligence capable enough to collaborate with humans, and develop new mechanisms and algorithms to achieve it. MiRAGE 2025 will provide a focused venue for discussing and disseminating research on multimodal understanding to generate robot actions.</p>
+	    
+          </div>
+          <div class="col-lg-3">
+            <h3>Where</h3>
+            <p>Music City Center, Nashville, TN, USA</p>
+			<!-- <p>Paris Convention Centre (Room S2) and <a href="https://www.youtube.com/channel/UCzlKSQ66EGrg8MupoqC1shA/live" target="_blank" rel="noopener noreferrer">YouTube Live Stream</a></p> -->
+          </div>
+          <div class="col-lg-3">
+            <h3>When</h3>
+			<!-- <p>02:00 PM - 05:25 PM KST<br>August 4, 2024</p> -->
+            <p>June 11, 2025 or June 12, 2025 (exact date and time TBD)</p>
+			<!-- <p>09:00 AM - 05:00 PM PST<br>October 24-28, 2022 (exact date TBD)</p> -->
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--==========================
+      Speakers Section
+    ============================-->
+    <section id="speakers" class="wow fadeInUp">
+      <div class="container">
+        <div class="section-header">
+          <h2>Keynote Speakers & Panelists</h2>
+		  <!-- <p>[Tentative & Subject to Change]</p> -->
+          <p>[More info about keynote speakers & panelists will be updated here]</p>
+        </div>
+
+        <div class="row">          
+		
+          <div class="col-lg-4 col-md-6">
+            <div class="speaker">
+              <a href="https://shurans.github.io/"><img src="img/speakers/Shuran_Song.jpg" alt="Shuran Song" class="img-fluid" style="width:100%;padding-bottom: 34px"></a>
+              <div class="details">
+                <h3><a href="https://shurans.github.io/">Shuran Song</a></h3>
+                <p>Stanford University</p>
+				<p>Confirmed</p>
+                <div class="social">
+				<!--
+                  <a href=""><i class="fa fa-twitter"></i></a>
+                  <a href=""><i class="fa fa-facebook"></i></a>
+                  <a href=""><i class="fa fa-google-plus"></i></a>
+                  <a href=""><i class="fa fa-linkedin"></i></a>
+				-->
+
+                </div>
+              </div>
+            </div>
+          </div>
+		  
+		  <div class="col-lg-4 col-md-6">
+            <div class="speaker">
+              <a href="https://web.eecs.umich.edu/~jjcorso/"><img src="img/speakers/Jason_Corso.jpg" alt="Jason Corso" class="img-fluid" style="width:100%;padding-bottom: 55px"></a>
+              <div class="details">
+                <h3><a href="https://web.eecs.umich.edu/~jjcorso/">Jason Corso</a></h3>
+                <p>University of Michigan</p>
+				<p>Confirmed</p>
+                <div class="social">
+                <!--
+                  <a href=""><i class="fa fa-linkedin"></i></a>
+                  <a href=""><i class="fa fa-twitter"></i></a>
+                  <a href=""><i class="fa fa-facebook"></i></a>
+                  <a href=""><i class="fa fa-google-plus"></i></a>
+                -->
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <div class="speaker">
+              <a href="https://pure.kaist.ac.kr/en/persons/joseph-jaewhan-lim"><img src="img/speakers/Joseph_Lim.png" alt="Joseph Lim" class="img-fluid" style="width:100%;padding-bottom: 0px"></a>
+              <div class="details">
+                <h3><a href="https://pure.kaist.ac.kr/en/persons/joseph-jaewhan-lim">Joseph J. Lim</a></h3>
+                <p>KAIST</p>
+				<p>Confirmed</p>
+                <div class="social">
+				<!--
+                  <a href=""><i class="fa fa-linkedin"></i></a>
+                  <a href=""><i class="fa fa-twitter"></i></a>
+                  <a href=""><i class="fa fa-facebook"></i></a>
+                  <a href=""><i class="fa fa-google-plus"></i></a>
+                -->
+
+				</div>
+              </div>
+            </div>
+          </div>
+		  
+		  <div class="col-lg-4 col-md-6">
+            <div class="speaker">
+              <a href="https://www.linkedin.com/in/vandi-verma-286678/"><img src="img/speakers/Vandi_Verma.jpg" alt="Vandi Verma" class="img-fluid" style="width:100%;padding-bottom: 50px"></a>
+              <div class="details">
+                <h3><a href="https://www.linkedin.com/in/vandi-verma-286678/">Vandi Verma</a></h3>
+                <p>NASA Jet Propulsion Laboratory</p>
+                <p>Invited (Tentative)</p>
+				<div class="social">
+                <!--
+                  <a href=""><i class="fa fa-linkedin"></i></a>
+                  <a href=""><i class="fa fa-twitter"></i></a>
+                  <a href=""><i class="fa fa-facebook"></i></a>
+                  <a href=""><i class="fa fa-google-plus"></i></a>
+                -->
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!--
+          <div class="col-lg-4 col-md-6">
+            <div class="speaker">
+              <img src="img/speakers/6.jpg" alt="Speaker 6" class="img-fluid">
+              <div class="details">
+                <h3><a href="speaker-details.html">Willow Trantow</a></h3>
+                <p>Non autem dicta</p>
+                <div class="social">
+                  <a href=""><i class="fa fa-twitter"></i></a>
+                  <a href=""><i class="fa fa-facebook"></i></a>
+                  <a href=""><i class="fa fa-google-plus"></i></a>
+                  <a href=""><i class="fa fa-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          -->
+        </div>
+      </div>
+
+    </section>
+	
+	
+    <!--==========================
+      Schedule Section
+    ============================-->
+    <section id="schedule" class="section-with-bg">
+      <div class="container wow fadeInUp">
+        <div class="section-header">
+		  <h2>MiRAGE 2025 Schedule</h2>
+		  <p>[in Nashville local time]</p>
+		  <!-- <p>[<a href="https://www.youtube.com/watch?v=AbH3o95cUHU&list=PLSOxIHrn0XhXvluyqvaK01SAlnBfyqmeL" target="_blank" rel="noopener noreferrer">YouTube Video Recording Playlist</a>]</p> -->
+		  
+		  <p>[More info about the schedule will be updated here]</p>
+		  <!-- <p>[Tentative; subject to change]</p> -->
+        </div>
+
+        <!--
+		<ul class="nav nav-tabs" role="tablist">
+          <li class="nav-item">
+            <a class="nav-link active" href="#day-1" role="tab" data-toggle="tab">Day 1</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#day-2" role="tab" data-toggle="tab">Day 2</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#day-3" role="tab" data-toggle="tab">Day 3</a>
+          </li>
+        </ul>
+
+        <h3 class="sub-heading">Voluptatem nulla veniam soluta et corrupti consequatur neque eveniet officia. Eius
+          necessitatibus voluptatem quis labore perspiciatis quia.</h3>
+        -->
+		
+		<!--
+        <div class="tab-content row justify-content-center">
+        -->
+		
+          <!-- Schdule Day 1 -->
+
+            <div role="tabpanel" class="col-lg-9 tab-pane fade show active" id="day-1">
+
+<!--			
+            <div class="row schedule-item">
+              <div class="col-md-2"><time>02:00 PM</time></div>
+              <div class="col-md-10">
+                <div class="speaker">
+                  <img src="img/organizers/Ziyue_Li.jpg" alt="Ziyue Li">
+                </div>
+                <h4>Opening Remarks <span>Ziyue Li</span></h4>
+              </div>
+            </div>
+
+			<div class="row schedule-item">
+              <div class="col-md-2"><time>02:05 PM</time></div>
+              <div class="col-md-10">
+                <div class="speaker">
+                  <img src="img/speakers/Jong-Seok_Lee.jpg" alt="Jong-Seok Lee">
+                </div>
+                <h4>Keynote <span>Jong-Seok Lee</span></h4>
+                <p><a href="https://drive.google.com/file/d/1HYGWSJlNndm1s1ootW2YN2eFQ4Tr8kxv/view?usp=sharing" target="_blank" rel="noopener noreferrer">Evaluation of Image Generation Models and Generated Images</a></p>
+              </div>
+            </div>
+			
+			<div class="row schedule-item">
+              <div class="col-md-2"><time>02:45 PM</time></div>
+              <div class="col-md-10">
+                <h4>Paper Presentation <span>Yangfan He et al.</span></h4>
+                <p>DDPM-MoCo: Advancing Industrial Surface Defect Generation and Detection with Generative and Contrastive Learning</p>
+              </div>
+            </div>
+			
+			
+			<div class="row schedule-item">
+              <div class="col-md-2"><time>02:55 PM</time></div>
+              <div class="col-md-10">
+                <div class="speaker">
+                  <img src="img/speakers/Chen_Qiu.png" alt="Chen Qiu">
+                </div>
+                <h4>Keynote <span>Chen Qiu</span></h4>
+                <p><a href="https://drive.google.com/file/d/1-h-MLd9d7opRnF-GJ2TIoGYTyXPMs5Z9/view?usp=sharing" target="_blank" rel="noopener noreferrer">Navigating Data and Label Scarcity in Anomaly Detection</a></p>
+              </div>
+            </div>
+			
+			<div class="row schedule-item">
+              <div class="col-md-2"><time>03:35 PM</time></div>
+              <div class="col-md-10">
+                <h4>Coffee Break</h4>
+              </div>
+            </div>
+			
+			<div class="row schedule-item">
+              <div class="col-md-2"><time>04:00 PM</time></div>
+              <div class="col-md-10">
+                <div class="speaker">
+                  <img src="img/speakers/Guansong_Pang.jpg" alt="Guansong Pang">
+                </div>
+                <h4>Keynote <span>Guansong Pang</span></h4>
+                <p>Generalist Anomaly Detection</p>
+              </div>
+            </div>
+			
+			<div class="row schedule-item">
+              <div class="col-md-2"><time>04:40 PM</time></div>
+              <div class="col-md-10">
+                <h4>Paper Presentation <span>Man Li et al.</span></h4>
+                <p>Robust Self-Supervised Deep Tensor Decomposition for Corrupted Time Series Classification</p>
+              </div>
+            </div>
+			
+			<div class="row schedule-item">
+              <div class="col-md-2"><time>04:50 PM</time></div>
+              <div class="col-md-10">
+                <h4>Paper Presentation <span>Hsiu-Hua Chou et al.</span></h4>
+                <p>Dual Memory-guided Probabilistic Model for Weakly-supervised Anomaly Detection</p>
+              </div>
+            </div>
+			
+			<div class="row schedule-item">
+              <div class="col-md-2"><time>05:00 PM</time></div>
+              <div class="col-md-10">
+                <h4>Paper Presentation <span>Aodong Li et al.</span></h4>
+                <p><a href="https://drive.google.com/file/d/1VGzHvwW97DTlmLbkPFmeEFR3KC2AjSkf/view?usp=sharing" target="_blank" rel="noopener noreferrer">Zero-Shot Batch-Level Tabular Anomaly Detection Using LLMs</a></p>
+              </div>
+            </div>
+-->
+<!--			
+			<div class="row schedule-item">
+              <div class="col-md-2"><time>05:10 PM</time></div>
+              <div class="col-md-10">
+                <h4>Paper Presentation <span>Xuhai Chen et al.</span></h4>
+                <p>CLIP-AD: A Language-Guided Staged Dual-Path Model for Zero-shot Anomaly Detection</p>
+              </div>
+            </div>
+-->			
+<!--			
+			<div class="row schedule-item">
+              <div class="col-md-2"><time>05:10 PM</time></div>
+              <div class="col-md-10">
+                <h4>Paper Presentation <span>Jiangning Zhang et al.</span></h4>
+                <p>GPT-4V-AD: Exploring Grounding Potential of VQA-oriented GPT-4V for Zero-shot Anomaly Detection</p>
+              </div>
+            </div>
+			
+			<div class="row schedule-item">
+              <div class="col-md-2"><time>05:20 PM</time></div>
+              <div class="col-md-10">
+                <div class="speaker">
+                  <img src="img/organizers/Ziyue_Li.jpg" alt="Ziyue Li">
+                </div>
+                <h4>Closing Remarks <span>Ziyue Li</span></h4>
+              </div>
+            </div>
+-->			
+        </div>
+
+      </div>
+
+    </section>
+	
+	
+	<!--==========================
+      Call for Paper
+    ============================-->
+    <section id="submission" class="wow fadeInUp">
+      <div class="container">
+        <div class="section-header">
+          <br><br>
+		  <h2>Submissions & Challenge</h2>
+		  <!-- <p>[<a href="pdf/MAR-CVPR-24-CFP.pdf" target="_blank" rel="noopener noreferrer">Call for Papers PDF</a>]</p> -->
+		  <p>[More info about the call for papers and challenge will be updated here]</p>
+		</div>
+<!--
+		  <h3 class="mb-3 text-left"><b>Submission Instructions</b></h3>
+              <p class="text-justify" style="color:black;"><span style="font-weight: normal; ">We welcome full paper submissions. The papers must be no longer than 9 pages in total: 7 pages for the body of the paper and 2 pages for references. Please submit at the following CMT website:<br><a href="https://cmt3.research.microsoft.com/ADFM2024" target="_blank" rel="noopener noreferrer">ADFM 2024 CMT submission website</a>.&nbsp;<br><br> The paper submissions must be in pdf format and use the <a href="https://www.ijcai.org/sites/default/files/Guidelines/FormattingGuidelines-IJCAI-24.zip" target="_blank" rel="noopener noreferrer">IJCAI 2024 official templates</a>. All submissions must be anonymous and conform to the IJCAI 2024 standards for double-blind review. The accepted papers will be posted on the workshop website and will not appear in the IJCAI 2024 proceedings. IJCAI 2024 workshop chairs enforce that at least one author of each accepted paper <font color="red">must</font> travel to the IJCAI venue in person and present the paper, and that multiple submissions of the same paper to more IJCAI workshops are forbidden. Failure to comply with the aforesaid rules may cause the paper to be removed from the workshop program. &nbsp;<br><br>Submission deadline: <s>April 26</s> <font color="red">May 10</font>, 2024 AOE Time &nbsp;<br>Notification to authors: May 31, 2024<br>Camera ready deadline:&nbsp; <s>June 7</s> <font color="red">June 14</font>, 2024 AOE Time<br><br>We invite the submission of original and high-quality research papers in the topics related to anomaly detection with foundation models. Each accepted paper will be presented as either an oral, spotlight, or poster presentation.&nbsp;</span><br></p>
+        
+		  <h3 class="display-5 text-left"><br><b>Topics</b></h3>
+              <p class="text-left" style="color:black;">The topics for ADFM 2024 include, but are not limited to:<br></p>
+              <ul class="">
+                <li class="text-left">Foundations and principles of foundation models for anomaly detection.</li>
+                <li class="text-left">Innovative anomaly detection algorithms and frameworks leveraging foundation models.</li>
+                <li class="text-left">Application-specific anomaly detection using foundation models, including but not limited to finance, healthcare, cybersecurity, and industrial systems.</li>
+                <li class="text-left">Evaluation metrics and benchmarks for assessing anomaly detection in foundation models.</li>
+                <li class="text-left">Techniques for enhancing the explainability and interpretability of foundation models in anomaly detection tasks.</li>
+                <li class="text-left">Strategies for ensuring fairness and reducing bias in anomaly detection with foundation models.</li>
+                <li class="text-left">Privacy-preserving methods in anomaly detection using foundation models.</li>
+                <li class="text-left">Trustworthiness and reliability of foundation models in critical anomaly detection applications.</li>
+                <li class="text-left">Cross-disciplinary approaches for improving anomaly detection, incorporating insights from other fields such as psychology and sociology.</li>
+				<li class="text-left">Incremental learning and adaptation mechanisms for foundation models in dynamic environments.</li>
+                <li class="text-left">Integration of domain knowledge and expert systems with foundation models for improved anomaly detection.</li>
+				<li class="text-left">Exploring the limitations and challenges of current foundation models in detecting anomalies in complex and noisy data.</li>
+				<li class="text-left">Forward-looking perspectives on the evolution of anomaly detection methodologies with the advancement of foundation models.</li>
+				
+              </ul>&nbsp;</span><br></p>
+			
+		<br><br>
+		  <h3 class="mb-3 text-left"><b>Instructions of Publication Preparation</b></h3>
+              <p class="text-justify" style="color:black;"><span style="font-weight: normal; ">We plan to publish the accepted papers with the <a href="https://www.springer.com/series/7899" target="_blank" rel="noopener noreferrer">Springer CCIS series</a>. For the authors of the accpeted papers, please format your paper using the official <a href="https://www.overleaf.com/latex/templates/springer-lecture-notes-in-computer-science/kzwwpvhwnvfj#.WuA4JS5uZpi" target="_blank" rel="noopener noreferrer">Springer template</a> and follow the instructions on the Springer <a href="https://resource-cms.springernature.com/springer-cms/rest/v1/content/19242230/data/" target="_blank" rel="noopener noreferrer">author guideline</a> and <a href="https://www.springer.com/gp/computer-science/lncs/conference-proceedings-guidelines" target="_blank" rel="noopener noreferrer">author information</a>. Please also submit all the source files (compressed as a .zip file) together with the compiled .pdf file and the signed <a href="./SNCS_ProceedingsPaper_LTP_ST_SN_Switzerland.docx" target="_blank" rel="noopener noreferrer">License to Publish Agreement</a> via <a href="https://cmt3.research.microsoft.com/ADFM2024" target="_blank" rel="noopener noreferrer">CMT</a>. If the camera ready paper, the corresponding LaTeX source file, and the license to publish agreement are not submitted in the correct format on time, then the publication of the paper cannot be guaranteed.
+			  <br><br>Camera ready deadline: June 14, 2024 AOE Time &nbsp;</span><br></p>
+			  
+-->			  
+			  
+			  
+			  
+			<!-- </p> -->
+
+      </div>
+
+    </section>
+	
+	
+	
+	<!--==========================
+      Accepted Papers
+    ============================-->
+<!--
+    <section id="accepted_work" class="wow fadeInUp">
+      <div class="container">
+        <div class="section-header">
+          <br><br>
+		  <h2>Accepted Papers</h2>
+		  <p>[<a href="https://link.springer.com/book/9789819790029" target="_blank" rel="noopener noreferrer">Workshop Proceedings</a>]</p>
+		  </div>
+-->		  
+          <!-- <h3 class="display-5 text-left"><br><b>Accepted Papers</b></h3> -->
+<!--
+			<ul class="">
+                <li class="text-left"><i><a href="https://drive.google.com/file/d/1j1Go3HqLCX5y_Z8cAp946Ap0ojlPmNfC/view?usp=drive_link" target="_blank" rel="noopener noreferrer">GPT-4V-AD: Exploring Grounding Potential of VQA-oriented GPT-4V for Zero-shot Anomaly Detection</a>.</i>
+				<br>Jiangning Zhang, Haoyang He, Xuhai Chen, Zhucun Xue, Yabiao Wang, Chengjie Wang, Lei Xie, Yong Liu.
+				</li>
+				<br>
+				<li class="text-left"><i><a href="https://drive.google.com/file/d/1pZMV6GwcAZ7SsuBvOvusKYPjJLqTUdCc/view?usp=sharing" target="_blank" rel="noopener noreferrer">CLIP-AD: A Language-Guided Staged Dual-Path Model for Zero-shot Anomaly Detection</a>.</i>
+				<br>Xuhai Chen, Jiangning Zhang, Guanzhong Tian, Haoyang He, Wuhao Zhang, Yabiao Wang, Chengjie Wang, Yong Liu.
+				<br>[<a href="https://www.youtube.com/watch?v=V9Tq-R2ouZQ" target="_blank" rel="noopener noreferrer">video</a>] [<a href="https://drive.google.com/file/d/1swrSlb1NHnfC7XWGes5byBFkLBcp2BEV/view?usp=sharing" target="_blank" rel="noopener noreferrer">slides</a>]
+				</li>
+				<br>
+				<li class="text-left"><i><a href="https://drive.google.com/file/d/1aL8iRPcVi88SixpO7lAln-n4Co7Y_JQg/view?usp=drive_link" target="_blank" rel="noopener noreferrer">Robust Self-Supervised Deep Tensor Decomposition for Corrupted Time Series Classification</a>.</i>
+				<br>Man Li, Ziyue Li, Lijun Sun, Fugee Tsung.
+				</li>
+				<br>
+				<li class="text-left"><i><a href="https://drive.google.com/file/d/1oIM8hAHI3tmD2t8Pst25dJrKTzibtYGz/view?usp=drive_link" target="_blank" rel="noopener noreferrer">DDPM-MoCo: Advancing Industrial Surface Defect Generation and Detection with Generative and Contrastive Learning</a>.</i>
+				<br>Yangfan He, Xinyan Wang, Tianyu Shi.
+				</li>
+				<br>
+				<li class="text-left"><i><a href="https://drive.google.com/file/d/1-d_y7VMpyadHcN4tra7UGyPBkwtf2WA5/view?usp=drive_link" target="_blank" rel="noopener noreferrer">Dual Memory-guided Probabilistic Model for Weakly-supervised Anomaly Detection</a>.</i>
+				<br>Hsiu-Hua Chou, Ruyi Xu, Kang-Yang Huang, Jhih-Ciang Wu, Hong-Han Shuai, Wen-Huang Cheng.
+				</li>
+				<br>
+				<li class="text-left"><i><a href="https://drive.google.com/file/d/1EYpm2uQIVWc8NVZy_E7bFEmKZAOEO2WJ/view?usp=drive_link" target="_blank" rel="noopener noreferrer">Zero-Shot Batch-Level Tabular Anomaly Detection Using LLMs</a>.</i>
+				<br>Aodong Li, Yunhan Zhao, Chen Qiu, Marius Kloft, Padhraic Smyth, Maja Rudolph, Stephan Mandt.
+				<br>[<a href="https://drive.google.com/file/d/1VGzHvwW97DTlmLbkPFmeEFR3KC2AjSkf/view?usp=sharing" target="_blank" rel="noopener noreferrer">slides</a>]
+				</li>
+				<br>
+              </ul>  
+-->
+<!--
+          <h3 class="display-5 text-left"><br><b>Oral Papers</b></h3>
+			  <ul class="">
+                <li class="text-left"><i><a href="https://openaccess.thecvf.com/content/ICCV2023W/VLAR/html/Sammani_Uni-NLX_Unifying_Textual_Explanations_for_Vision_and_Vision-Language_Tasks_ICCVW_2023_paper.html" target="_blank" rel="noopener noreferrer">Uni-NLX: Unifying Textual Explanations for Vision and Vision-Language Tasks</a>.</i>
+				<br>Fawaz Sammani, Nikos Deligiannis.
+				</li>
+				<br>
+				<li class="text-left"><i><a href="https://openaccess.thecvf.com/content/ICCV2023W/VLAR/html/de_Oliveira_Souza_SelfGraphVQA_A_Self-Supervised_Graph_Neural_Network_for_Scene-Based_Question_Answering_ICCVW_2023_paper.html" target="_blank" rel="noopener noreferrer">SelfGraphVQA: A Self-Supervised Graph Neural Network for Scene-based Question Answering</a>.</i>
+				<br>Bruno Cesar de Oliveira Souza, Marius Aasan, Helio Pedrini, Adín Ramírez Rivera.
+				</li>
+				<br>
+				<li class="text-left"><i><a href="https://openaccess.thecvf.com/content/ICCV2023W/VLAR/html/Li_Iterative_Robust_Visual_Grounding_with_Masked_Reference_Based_Centerpoint_Supervision_ICCVW_2023_paper.html" target="_blank" rel="noopener noreferrer">Iterative Robust Visual Grounding with Masked Reference based Centerpoint Supervision</a>.</i>
+				<br>Menghao Li, Chunlei Wang, Wenquan Feng, Shuchang Lyu, Guangliang Cheng, Xiangtai Li, Binghao Liu, Qi Zhao.
+				</li>
+				<br>
+				<li class="text-left"><i><a href="https://openaccess.thecvf.com/content/ICCV2023W/VLAR/html/Oshima_Pointing_out_Human_Answer_Mistakes_in_a_Goal-Oriented_Visual_Dialogue_ICCVW_2023_paper.html" target="_blank" rel="noopener noreferrer">Pointing out Human Answer Mistakes in a Goal-Oriented Visual Dialogue</a>.</i>
+				<br>Ryosuke Oshima, Seitaro Shinagawa, Hideki Tsunashima, Qi Feng, Shigeo Morishima.
+				</li>
+				<br>
+              </ul>  
+			  
+		  <h3 class="display-5 text-left"><br><b>Spotlight Papers</b></h3>
+			  <ul class="">
+                <li class="text-left"><i><a href="https://openaccess.thecvf.com/content/ICCV2023W/VLAR/html/Zhang_What_If_the_TV_Was_Off_Examining_Counterfactual_Reasoning_Abilities_ICCVW_2023_paper.html" target="_blank" rel="noopener noreferrer">What If the TV Was Off? Examining Counterfactual Reasoning Abilities of Multi-modal Language Models</a>.</i>
+				<br>Letian Zhang, Xiaotong Zhai, Zhongkai Zhao, Xin Wen, Bingchen Zhao.
+				</li>
+				<br>
+				<li class="text-left"><i><a href="https://openaccess.thecvf.com/content/ICCV2023W/VLAR/html/Jahagirdar_Understanding_Video_Scenes_Through_Text_Insights_from_Text-Based_Video_Question_ICCVW_2023_paper.html" target="_blank" rel="noopener noreferrer">Understanding Video Scenes through Text: Insights from Text-based Video Question Answering</a>.</i>
+				<br>Soumya Shamarao Jahagirdar, Minesh Mathew, Dimosthenis Karatzas, C.V. Jawahar.
+				</li>
+				<br>
+				<li class="text-left"><i><a href="https://openaccess.thecvf.com/content/ICCV2023W/VLAR/html/Ahmad_MMTF_Multi-Modal_Temporal_Fusion_for_Commonsense_Video_Question_Answering_ICCVW_2023_paper.html" target="_blank" rel="noopener noreferrer">MMTF: Multi-Modal Temporal Fusion for Commonsense Video Question Answering</a>.</i>
+				<br>Mobeen Ahmad, Geonwoo Park, Sang Uk Park.
+				</li>
+				<br>
+				<li class="text-left"><i><a href="https://openaccess.thecvf.com/content/ICCV2023/html/Chen_VQA_Therapy_Exploring_Answer_Differences_by_Visually_Grounding_Answers_ICCV_2023_paper.html" target="_blank" rel="noopener noreferrer">VQA Therapy: Exploring Answer Differences by Visually Grounding Answers</a>.</i>
+				<br>Chongyan Chen, Samreen Anjum, Danna Gurari.
+				</li>
+				<br>
+-->
+				<!-- this paper is withdrawn
+				<li class="text-left"><i>Towards the Adversarial Robustness of Vision-Language Model with Chain-of-Thought Reasoning.</i>
+				<br>Zefeng Wang, Zhen Han, Jindong Gu, Shuo Chen, Volker Tresp.
+				</li>
+				<br>
+				-->
+<!--
+				<li class="text-left"><i><a href="https://openaccess.thecvf.com/content/ICCV2023W/VLAR/html/Taioli_Language-Enhanced_RNR-Map_Querying_Renderable_Neural_Radiance_Field_Maps_with_Natural_ICCVW_2023_paper.html" target="_blank" rel="noopener noreferrer">Language-enhanced RNR-Map: Querying Renderable Neural Radiance Field Maps with Natural Language</a>.</i>
+				<br>Francesco Taioli, Federico Cunico, Federico Girella, Riccardo Bologna, Alessandro Farinelli, Marco Cristani.
+				</li>
+				<br>
+				<li class="text-left"><i><a href="https://openaccess.thecvf.com/content/ICCV2023W/VLAR/html/Ali_CLIP-Decoder__ZeroShot_Multilabel_Classification_Using_Multimodal_CLIP_Aligned_Representations_ICCVW_2023_paper.html" target="_blank" rel="noopener noreferrer">CLIP-Decoder: ZeroShot Multilabel Classification using Multimodal CLIP Aligned Representations</a>.</i>
+				<br>Muhammad Ali, Salman Khan.
+				</li>
+              </ul>  
+-->
+      </div>
+
+    </section>
+	
+	
+	
+	<!--==========================
+      Award
+    ============================-->
+<!--
+    <section id="award" class="wow fadeInUp">
+      <div class="container">
+        <div class="section-header">
+          <br><br>
+		  <h2>Awards</h2>
+		</div>
+-->		  
+          <!-- <h3 class="display-5 text-left"><br><b>Accepted Papers</b></h3> -->
+<!--
+          <h3 class="display-5 text-left"><br><b>Honorable Mention</b></h3>
+			  <ul class="">
+                <li class="text-left"><i><a href="https://openaccess.thecvf.com/content/ICCV2023W/VLAR/html/Sammani_Uni-NLX_Unifying_Textual_Explanations_for_Vision_and_Vision-Language_Tasks_ICCVW_2023_paper.html" target="_blank" rel="noopener noreferrer">Uni-NLX: Unifying Textual Explanations for Vision and Vision-Language Tasks</a>.</i>
+				<br>Fawaz Sammani, Nikos Deligiannis.
+				</li>
+				<br>
+				<li class="text-left"><i><a href="https://openaccess.thecvf.com/content/ICCV2023W/VLAR/html/Li_Iterative_Robust_Visual_Grounding_with_Masked_Reference_Based_Centerpoint_Supervision_ICCVW_2023_paper.html" target="_blank" rel="noopener noreferrer">Iterative Robust Visual Grounding with Masked Reference based Centerpoint Supervision</a>.</i>
+				<br>Menghao Li, Chunlei Wang, Wenquan Feng, Shuchang Lyu, Guangliang Cheng, Xiangtai Li, Binghao Liu, Qi Zhao.
+				</li>
+              </ul>
+		  
+		  <h3 class="display-5 text-left"><br><b>Best Paper Award</b></h3>
+			  <ul class="">
+				<li class="text-left"><i><a href="https://openaccess.thecvf.com/content/ICCV2023W/VLAR/html/de_Oliveira_Souza_SelfGraphVQA_A_Self-Supervised_Graph_Neural_Network_for_Scene-Based_Question_Answering_ICCVW_2023_paper.html" target="_blank" rel="noopener noreferrer">SelfGraphVQA: A Self-Supervised Graph Neural Network for Scene-based Question Answering</a>.</i>
+				<br>Bruno Cesar de Oliveira Souza, Marius Aasan, Helio Pedrini, Adín Ramírez Rivera.
+				</li>
+              </ul> 
+			  
+		  <h3 class="display-5 text-left"><br><b>Challenge Award</b></h3>
+			  <ul class="">
+                <li class="text-left"><i><a href="https://arxiv.org/abs/2310.06440" target="_blank" rel="noopener noreferrer"><i>Solution for SMART-101 Challenge of ICCV Multi-modal Algorithmic Reasoning Task 2023</a>.</i>
+				<br>Xiangyu Wu, Yang Yang, Shengdong Xu, Yifeng Wu, Qingguo Chen, Jianfeng Lu.
+				</li>
+				
+              </ul>  
+-->
+      </div>
+	<br><br>
+    </section>
+	
+
+    <!--==========================
+      Gallery Section
+    ============================-->
+<!--
+    <section id="direction" class="wow fadeInUp">
+
+      <div class="container">
+        <div class="section-header">
+          <h2>Award Ceremony Photos</h2>
+        </div>
+      </div>
+
+      <div class="owl-carousel gallery-carousel">
+        <a href="img/awards/Fawaz.jpg" class="venobox" data-gall="gallery-carousel"><img src="img/awards/Fawaz.jpg" alt=""></a>
+        <a href="img/awards/Chunlei.jpg" class="venobox" data-gall="gallery-carousel"><img src="img/awards/Chunlei.jpg" alt=""></a>
+        <a href="img/awards/Bruno.jpg" class="venobox" data-gall="gallery-carousel"><img src="img/awards/Bruno.jpg" alt=""></a>
+        <a href="img/awards/MK.jpg" class="venobox" data-gall="gallery-carousel"><img src="img/awards/MK.jpg" alt=""></a>
+		<a href="img/awards/SMART-101-award.jpg" class="venobox" data-gall="gallery-carousel"><img src="img/awards/SMART-101-award.jpg" alt=""></a>
+      </div>
+
+    </section>
+-->
+	
+
+    <!--==========================
+      Venue Section
+    ============================-->
+    <section id="venue" class="wow fadeInUp">
+
+      <div class="container-fluid">
+
+        <div class="section-header">
+          <h2>MiRAGE 2025 Venue</h2>
+          <!-- <p>Event venue location info and gallery</p> -->
+        </div>
+
+        <div class="row no-gutters">
+		  <div class="col-lg-6 venue-map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12885.566389155465!2d-86.7781982!3d36.1570243!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8864665e441dc1db%3A0xae6a87c908d95a40!2sMusic%20City%20Center!5e0!3m2!1sen!2sus!4v1729210649982!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+		  <div class="col-lg-6 venue-info"> <!--<div class="col-lg-6 venue-info"> -->
+            <div class="row justify-content-center">
+              <div class="col-11 col-lg-8">
+                <h3>Music City Center, Nashville, TN, USA</h3>
+                <p>MiRAGE 2025 will be held at Music City Center, Nashville, TN, USA on June 11, 2025 or June 12, 2025.</p>
+				<!-- <p>MAR 2024 will be held at the Room S2 of the Paris Convention Centre at 08:45 AM - 05:45 PM CET on October 3, 2023. (<a href="https://www.youtube.com/channel/UCzlKSQ66EGrg8MupoqC1shA/live" target="_blank" rel="noopener noreferrer">YouTube Live Stream Link</a>)</p> -->
+              </div>
+            </div>
+          </div>
+
+<!--		
+		<div class="row no-gutters">  
+		  <div class="col-lg-6 venue-map">
+		      <img src="img/venue1.jpg" alt="venue" class="img-fluid" style="width:100%">
+		  </div>
+-->
+          
+        </div>
+
+      </div>
+
+      <!--
+	  <div class="container-fluid venue-gallery-container">
+        <div class="row no-gutters">
+
+          <div class="col-lg-3 col-md-4">
+            <div class="venue-gallery">
+              <a href="img/venue-gallery/1.jpg" class="venobox" data-gall="venue-gallery">
+                <img src="img/venue-gallery/1.jpg" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4">
+            <div class="venue-gallery">
+              <a href="img/venue-gallery/2.jpg" class="venobox" data-gall="venue-gallery">
+                <img src="img/venue-gallery/2.jpg" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4">
+            <div class="venue-gallery">
+              <a href="img/venue-gallery/3.jpg" class="venobox" data-gall="venue-gallery">
+                <img src="img/venue-gallery/3.jpg" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4">
+            <div class="venue-gallery">
+              <a href="img/venue-gallery/4.jpg" class="venobox" data-gall="venue-gallery">
+                <img src="img/venue-gallery/4.jpg" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4">
+            <div class="venue-gallery">
+              <a href="img/venue-gallery/5.jpg" class="venobox" data-gall="venue-gallery">
+                <img src="img/venue-gallery/5.jpg" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4">
+            <div class="venue-gallery">
+              <a href="img/venue-gallery/6.jpg" class="venobox" data-gall="venue-gallery">
+                <img src="img/venue-gallery/6.jpg" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4">
+            <div class="venue-gallery">
+              <a href="img/venue-gallery/7.jpg" class="venobox" data-gall="venue-gallery">
+                <img src="img/venue-gallery/7.jpg" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4">
+            <div class="venue-gallery">
+              <a href="img/venue-gallery/8.jpg" class="venobox" data-gall="venue-gallery">
+                <img src="img/venue-gallery/8.jpg" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+	  -->
+
+    </section>
+
+    <!--==========================
+      Hotels Section
+    ============================-->
+<!--
+    <section id="hotels" class="section-with-bg wow fadeInUp">
+
+      <div class="container">
+        <div class="section-header">
+          <h2>Hotels</h2>
+          <p>Her are some nearby hotels</p>
+        </div>
+
+        <div class="row">
+
+          <div class="col-lg-4 col-md-6">
+            <div class="hotel">
+              <div class="hotel-img">
+                <img src="img/hotels/1.jpg" alt="Hotel 1" class="img-fluid">
+              </div>
+              <h3><a href="#">Hotel 1</a></h3>
+              <div class="stars">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+              </div>
+              <p>0.4 Mile from the Venue</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <div class="hotel">
+              <div class="hotel-img">
+                <img src="img/hotels/2.jpg" alt="Hotel 2" class="img-fluid">
+              </div>
+              <h3><a href="#">Hotel 2</a></h3>
+              <div class="stars">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-full"></i>
+              </div>
+              <p>0.5 Mile from the Venue</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <div class="hotel">
+              <div class="hotel-img">
+                <img src="img/hotels/3.jpg" alt="Hotel 3" class="img-fluid">
+              </div>
+              <h3><a href="#">Hotel 3</a></h3>
+              <div class="stars">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+              </div>
+              <p>0.6 Mile from the Venue</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </section>
+-->
+
+	
+    <!--==========================
+      Sponsors Section
+    ============================-->
+<!--
+    <section id="supporters" class="section-with-bg wow fadeInUp">
+
+      <div class="container">
+        <div class="section-header">
+          <h2>Sponsors</h2>
+        </div>
+
+        <div class="row no-gutters supporters-wrap clearfix">
+
+          <div class="col-lg-6 col-md-8 col-xs-6">
+            <div class="supporter-logo">
+              <a href="https://merl.com/" target="_blank" rel="noopener noreferrer"><img src="img/sponsors/MERL_logo.jpg" class="img-fluid" alt=""></a>
+            </div>
+          </div>
+          
+         
+          <div class="col-lg-6 col-md-8 col-xs-6">
+            <div class="supporter-logo">
+              <a href="https://mathkangaroo.org/mks/" target="_blank" rel="noopener noreferrer"><img src="img/sponsors/Math_Kangaroo_logo.png" class="img-fluid" alt=""></a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4 col-xs-6">
+            <div class="supporter-logo">
+              <img src="img/supporters/3.png" class="img-fluid" alt="">
+            </div>
+          </div>
+          
+          <div class="col-lg-3 col-md-4 col-xs-6">
+            <div class="supporter-logo">
+              <img src="img/supporters/4.png" class="img-fluid" alt="">
+            </div>
+          </div>
+          
+          <div class="col-lg-3 col-md-4 col-xs-6">
+            <div class="supporter-logo">
+              <img src="img/supporters/5.png" class="img-fluid" alt="">
+            </div>
+          </div>
+        
+          <div class="col-lg-3 col-md-4 col-xs-6">
+            <div class="supporter-logo">
+              <img src="img/supporters/6.png" class="img-fluid" alt="">
+            </div>
+          </div>
+          
+          <div class="col-lg-3 col-md-4 col-xs-6">
+            <div class="supporter-logo">
+              <img src="img/supporters/7.png" class="img-fluid" alt="">
+            </div>
+          </div>
+          
+          <div class="col-lg-3 col-md-4 col-xs-6">
+            <div class="supporter-logo">
+              <img src="img/supporters/8.png" class="img-fluid" alt="">
+            </div>
+          </div>
+
+
+        </div>
+
+      </div>
+	  
+    </section>
+-->
+    <!--==========================
+      F.A.Q Section
+    ============================-->
+<!--
+    <section id="faq" class="wow fadeInUp">
+
+      <div class="container">
+
+        <div class="section-header">
+          <h2>F.A.Q </h2>
+        </div>
+
+        <div class="row justify-content-center">
+          <div class="col-lg-9">
+              <ul id="faq-list">
+
+                <li>
+                  <a data-toggle="collapse" class="collapsed" href="#faq1">Non consectetur a erat nam at lectus urna duis? <i class="fa fa-minus-circle"></i></a>
+                  <div id="faq1" class="collapse" data-parent="#faq-list">
+                    <p>
+                      Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.
+                    </p>
+                  </div>
+                </li>
+      
+                <li>
+                  <a data-toggle="collapse" href="#faq2" class="collapsed">Feugiat scelerisque varius morbi enim nunc faucibus a pellentesque? <i class="fa fa-minus-circle"></i></a>
+                  <div id="faq2" class="collapse" data-parent="#faq-list">
+                    <p>
+                      Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.
+                    </p>
+                  </div>
+                </li>
+      
+                <li>
+                  <a data-toggle="collapse" href="#faq3" class="collapsed">Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi? <i class="fa fa-minus-circle"></i></a>
+                  <div id="faq3" class="collapse" data-parent="#faq-list">
+                    <p>
+                      Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus pulvinar elementum integer enim. Sem nulla pharetra diam sit amet nisl suscipit. Rutrum tellus pellentesque eu tincidunt. Lectus urna duis convallis convallis tellus. Urna molestie at elementum eu facilisis sed odio morbi quis
+                    </p>
+                  </div>
+                </li>
+      
+                <li>
+                  <a data-toggle="collapse" href="#faq4" class="collapsed">Ac odio tempor orci dapibus. Aliquam eleifend mi in nulla? <i class="fa fa-minus-circle"></i></a>
+                  <div id="faq4" class="collapse" data-parent="#faq-list">
+                    <p>
+                      Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.
+                    </p>
+                  </div>
+                </li>
+      
+                <li>
+                  <a data-toggle="collapse" href="#faq5" class="collapsed">Tempus quam pellentesque nec nam aliquam sem et tortor consequat? <i class="fa fa-minus-circle"></i></a>
+                  <div id="faq5" class="collapse" data-parent="#faq-list">
+                    <p>
+                      Molestie a iaculis at erat pellentesque adipiscing commodo. Dignissim suspendisse in est ante in. Nunc vel risus commodo viverra maecenas accumsan. Sit amet nisl suscipit adipiscing bibendum est. Purus gravida quis blandit turpis cursus in
+                    </p>
+                  </div>
+                </li>
+      
+                <li>
+                  <a data-toggle="collapse" href="#faq6" class="collapsed">Tortor vitae purus faucibus ornare. Varius vel pharetra vel turpis nunc eget lorem dolor? <i class="fa fa-minus-circle"></i></a>
+                  <div id="faq6" class="collapse" data-parent="#faq-list">
+                    <p>
+                      Laoreet sit amet cursus sit amet dictum sit amet justo. Mauris vitae ultricies leo integer malesuada nunc vel. Tincidunt eget nullam non nisi est sit amet. Turpis nunc eget lorem dolor sed. Ut venenatis tellus in metus vulputate eu scelerisque. Pellentesque diam volutpat commodo sed egestas egestas fringilla phasellus faucibus. Nibh tellus molestie nunc non blandit massa enim nec.
+                    </p>
+                  </div>
+                </li>
+      
+              </ul>
+          </div>
+        </div>
+
+      </div>
+
+    </section>
+-->
+    <!--==========================
+      Subscribe Section
+    ============================-->
+<!--
+    <section id="subscribe">
+      <div class="container wow fadeInUp">
+        <div class="section-header">
+          <h2>Newsletter</h2>
+          <p>Rerum numquam illum recusandae quia mollitia consequatur.</p>
+        </div>
+
+        <form method="POST" action="#">
+          <div class="form-row justify-content-center">
+            <div class="col-auto">
+              <input type="text" class="form-control" placeholder="Enter your Email">
+            </div>
+            <div class="col-auto">
+              <button type="submit">Subscribe</button>
+            </div>
+          </div>
+        </form>
+
+      </div>
+    </section>
+-->
+    <!--==========================
+      Buy Ticket Section
+    ============================-->
+<!--
+    <section id="buy-tickets" class="section-with-bg wow fadeInUp">
+      <div class="container">
+
+        <div class="section-header">
+          <h2>Buy Tickets</h2>
+          <p>Velit consequatur consequatur inventore iste fugit unde omnis eum aut.</p>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="card mb-5 mb-lg-0">
+              <div class="card-body">
+                <h5 class="card-title text-muted text-uppercase text-center">Standard Access</h5>
+                <h6 class="card-price text-center">$150</h6>
+                <hr>
+                <ul class="fa-ul">
+                  <li><span class="fa-li"><i class="fa fa-check"></i></span>Regular Seating</li>
+                  <li><span class="fa-li"><i class="fa fa-check"></i></span>Coffee Break</li>
+                  <li><span class="fa-li"><i class="fa fa-check"></i></span>Custom Badge</li>
+                  <li class="text-muted"><span class="fa-li"><i class="fa fa-times"></i></span>Community Access</li>
+                  <li class="text-muted"><span class="fa-li"><i class="fa fa-times"></i></span>Workshop Access</li>
+                  <li class="text-muted"><span class="fa-li"><i class="fa fa-times"></i></span>After Party</li>
+                </ul>
+                <hr>
+                <div class="text-center">
+                  <button type="button" class="btn" data-toggle="modal" data-target="#buy-ticket-modal" data-ticket-type="standard-access">Buy Now</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="card mb-5 mb-lg-0">
+              <div class="card-body">
+                <h5 class="card-title text-muted text-uppercase text-center">Pro Access</h5>
+                <h6 class="card-price text-center">$250</h6>
+                <hr>
+                <ul class="fa-ul">
+                  <li><span class="fa-li"><i class="fa fa-check"></i></span>Regular Seating</li>
+                  <li><span class="fa-li"><i class="fa fa-check"></i></span>Coffee Break</li>
+                  <li><span class="fa-li"><i class="fa fa-check"></i></span>Custom Badge</li>
+                  <li><span class="fa-li"><i class="fa fa-check"></i></span>Community Access</li>
+                  <li class="text-muted"><span class="fa-li"><i class="fa fa-times"></i></span>Workshop Access</li>
+                  <li class="text-muted"><span class="fa-li"><i class="fa fa-times"></i></span>After Party</li>
+                </ul>
+                <hr>
+                <div class="text-center">
+                  <button type="button" class="btn" data-toggle="modal" data-target="#buy-ticket-modal" data-ticket-type="pro-access">Buy Now</button>
+                </div>
+              </div>
+            </div>
+          </div>
+-->
+          <!-- Pro Tier -->
+<!--
+          <div class="col-lg-4">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title text-muted text-uppercase text-center">Premium Access</h5>
+                <h6 class="card-price text-center">$350</h6>
+                <hr>
+                <ul class="fa-ul">
+                  <li><span class="fa-li"><i class="fa fa-check"></i></span>Regular Seating</li>
+                  <li><span class="fa-li"><i class="fa fa-check"></i></span>Coffee Break</li>
+                  <li><span class="fa-li"><i class="fa fa-check"></i></span>Custom Badge</li>
+                  <li><span class="fa-li"><i class="fa fa-check"></i></span>Community Access</li>
+                  <li><span class="fa-li"><i class="fa fa-check"></i></span>Workshop Access</li>
+                  <li><span class="fa-li"><i class="fa fa-check"></i></span>After Party</li>
+                </ul>
+                <hr>
+                <div class="text-center">
+                  <button type="button" class="btn" data-toggle="modal" data-target="#buy-ticket-modal" data-ticket-type="premium-access">Buy Now</button>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+-->
+      <!-- Modal Order Form -->
+<!--
+      <div id="buy-ticket-modal" class="modal fade">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h4 class="modal-title">Buy Tickets</h4>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <form method="POST" action="#">
+                <div class="form-group">
+                  <input type="text" class="form-control" name="your-name" placeholder="Your Name">
+                </div>
+                <div class="form-group">
+                  <input type="text" class="form-control" name="your-email" placeholder="Your Email">
+                </div>
+                <div class="form-group">
+                  <select id="ticket-type" name="ticket-type" class="form-control" >
+                    <option value="">-- Select Your Ticket Type --</option>
+                    <option value="standard-access">Standard Access</option>
+                    <option value="pro-access">Pro Access</option>
+                    <option value="premium-access">Premium Access</option>
+                  </select>
+                </div>
+                <div class="text-center">
+                  <button type="submit" class="btn">Buy Now</button>
+                </div>
+              </form>
+            </div>
+          </div><!-- /.modal-content -->
+<!--        </div><!-- /.modal-dialog -->
+<!--      </div><!-- /.modal -->
+
+<!--    </section>
+-->
+    <!--==========================
+      Contact Section
+    ============================-->
+<!--
+    <section id="contact" class="section-bg wow fadeInUp">
+
+      <div class="container">
+
+        <div class="section-header">
+          <h2>Contact Us</h2>
+          <p>Nihil officia ut sint molestiae tenetur.</p>
+        </div>
+
+        <div class="row contact-info">
+
+		  <div class="col-md-4">
+            <div class="contact-address">
+              <i class="ion-ios-location-outline"></i>
+              <h3>Address</h3>
+              <address>A108 Adam Street, NY 535022, USA</address>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="contact-phone">
+              <i class="ion-ios-telephone-outline"></i>
+              <h3>Phone Number</h3>
+              <p><a href="tel:+155895548855">+1 5589 55488 55</a></p>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="contact-email">
+              <i class="ion-ios-email-outline"></i>
+              <h3>Email</h3>
+              <p><a href="mailto:info@example.com">[TBD]info@example.com</a></p>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="form">
+          <div id="sendmessage">Your message has been sent. Thank you!</div>
+          <div id="errormessage"></div>
+          <form action="" method="post" role="form" class="contactForm">
+            <div class="form-row">
+              <div class="form-group col-md-6">
+                <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                <div class="validation"></div>
+              </div>
+              <div class="form-group col-md-6">
+                <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+                <div class="validation"></div>
+              </div>
+            </div>
+            <div class="form-group">
+              <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+              <div class="validation"></div>
+            </div>
+            <div class="form-group">
+              <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
+              <div class="validation"></div>
+            </div>
+            <div class="text-center"><button type="submit">Send Message</button></div>
+          </form>
+        </div>
+
+      </div>
+    </section><!-- #contact -->
+	
+
+    <!--==========================
+      Organizers Section
+    ============================-->
+    <section id="organizers" class="wow fadeInUp">
+      <div class="container">
+        <div class="section-header">
+          <h2>Organizers</h2>
+          <!-- <p>Here are some of our speakers</p> -->
+        </div>
+
+        <div class="row">
+		  <div class="col-lg-4 col-md-6">
+            
+			<div class="speaker">
+              <a href="https://www.linkedin.com/in/chiori-hori-42025823/"><img src="img/organizers/Chiori_Hori.jpg" alt="Chiori Hori" class="img-fluid" style="width:100%;padding-bottom: 0px"></a>
+              <div class="details">
+                <h3><a href="https://www.linkedin.com/in/chiori-hori-42025823/">Chiori Hori</a></h3>
+                <p>Mitsubishi Electric Research Laboratories (MERL)</p>
+                <div class="social">
+                  <!-- <a href=""><i class="fa fa-twitter"></i></a> -->
+                  <!-- <a href="https://www.facebook.com/LynxPeng" target="_blank" rel="noopener noreferrer"><i class="fa fa-facebook"></i></a> -->
+                  <!-- <a href=""><i class="fa fa-google-plus"></i></a> -->
+                  <!-- <a href=""><i class="fa fa-linkedin"></i></a> -->
+                </div>
+              </div>
+            </div>
+          </div>
+		  
+		  <div class="col-lg-4 col-md-6">
+            <div class="speaker">
+              <a href="https://sites.google.com/site/metrosmiles/home"><img src="img/organizers/Moitreya_Chatterjee.jpg" alt="Moitreya Chatterjee" class="img-fluid" style="width:100%;padding-bottom: 0px"></a>
+              <div class="details">
+                <h3><a href="https://sites.google.com/site/metrosmiles/home">Moitreya Chatterjee</a></h3>
+                <p>Mitsubishi Electric Research Laboratories (MERL)</p>
+                <div class="social">
+                  <!-- <a href=""><i class="fa fa-twitter"></i></a> -->
+                  <!-- <a href="https://www.facebook.com/LynxPeng" target="_blank" rel="noopener noreferrer"><i class="fa fa-facebook"></i></a> -->
+                  <!-- <a href=""><i class="fa fa-google-plus"></i></a> -->
+                  <!-- <a href=""><i class="fa fa-linkedin"></i></a> -->
+                </div>
+              </div>
+            </div>
+          </div>
+		  
+		  <div class="col-lg-4 col-md-6">
+            <div class="speaker">
+              <a href="https://www.merl.com/people/kpeng"><img src="img/organizers/Kuan-Chuan_Peng.jpg" alt="Kuan-Chuan Peng" class="img-fluid" style="width:100%;padding-bottom: 0px"></a>
+              <div class="details">
+                <h3><a href="https://www.merl.com/people/kpeng">Kuan-Chuan Peng</a></h3>
+                <p>Mitsubishi Electric Research Laboratories (MERL)</p>
+                <div class="social">
+                  <!-- <a href=""><i class="fa fa-twitter"></i></a> -->
+                  <!-- <a href="https://www.facebook.com/LynxPeng" target="_blank" rel="noopener noreferrer"><i class="fa fa-facebook"></i></a> -->
+                  <!-- <a href=""><i class="fa fa-google-plus"></i></a> -->
+                  <!-- <a href=""><i class="fa fa-linkedin"></i></a> -->
+                </div>
+              </div>
+            </div>
+          </div>
+		  
+		  <div class="col-lg-4 col-md-6">
+            <div class="speaker">
+              <a href="https://users.cecs.anu.edu.au/~cherian/"><img src="img/organizers/Anoop_Cherian.jpg" alt="Anoop Cherian" class="img-fluid" style="width:100%;padding-bottom: 37px"></a>
+              <div class="details">
+                <h3><a href="https://users.cecs.anu.edu.au/~cherian/">Anoop Cherian</a></h3>
+                <p>Mitsubishi Electric Research Laboratories (MERL)</p>
+                <div class="social">
+                  <!-- <a href=""><i class="fa fa-twitter"></i></a> -->
+                  <!-- <a href="https://www.facebook.com/LynxPeng" target="_blank" rel="noopener noreferrer"><i class="fa fa-facebook"></i></a> -->
+                  <!-- <a href=""><i class="fa fa-google-plus"></i></a> -->
+                  <!-- <a href=""><i class="fa fa-linkedin"></i></a> -->
+                </div>
+              </div>
+            </div>
+          </div>
+		  
+		  <div class="col-lg-4 col-md-6">
+            <div class="speaker">
+              <a href="https://merl.com/people/romeres"><img src="img/organizers/Diego_Romeres.jpg" alt="Diego Romeres" class="img-fluid" style="width:100%;padding-bottom: 0px"></a>
+              <div class="details">
+                <h3><a href="https://merl.com/people/romeres">Diego Romeres</a></h3>
+                <p>Mitsubishi Electric Research Laboratories (MERL)</p>
+                <div class="social">
+                  <!-- <a href=""><i class="fa fa-twitter"></i></a> -->
+                  <!-- <a href="https://www.facebook.com/LynxPeng" target="_blank" rel="noopener noreferrer"><i class="fa fa-facebook"></i></a> -->
+                  <!-- <a href=""><i class="fa fa-google-plus"></i></a> -->
+                  <!-- <a href=""><i class="fa fa-linkedin"></i></a> -->
+                </div>
+              </div>
+            </div>
+          </div>
+		  
+		  <div class="col-lg-4 col-md-6">
+            <div class="speaker">
+              <a href="https://researchportalplus.anu.edu.au/en/persons/stephen-gould"><img src="img/organizers/Stephen_Gould.png" alt="Stephen Gould" class="img-fluid" style="width:100%;padding-bottom: 88px"></a>
+              <div class="details">
+                <h3><a href="https://researchportalplus.anu.edu.au/en/persons/stephen-gould">Stephen Gould</a></h3>
+                <p>Australian National University</p>
+                <div class="social">
+                  <!-- <a href=""><i class="fa fa-twitter"></i></a> -->
+                  <!-- <a href="https://www.facebook.com/LynxPeng" target="_blank" rel="noopener noreferrer"><i class="fa fa-facebook"></i></a> -->
+                  <!-- <a href=""><i class="fa fa-google-plus"></i></a> -->
+                  <!-- <a href=""><i class="fa fa-linkedin"></i></a> -->
+                </div>
+              </div>
+            </div>
+          </div>
+		  
+		  <div class="col-lg-4 col-md-6">
+            <div class="speaker">
+              <a href="https://motonarikambara.github.io/"><img src="img/organizers/Motonari_Kambara.png" alt="Motonari Kambara" class="img-fluid" style="width:100%;padding-bottom: 30px"></a>
+              <div class="details">
+                <h3><a href="https://motonarikambara.github.io/">Motonari Kambara</a></h3>
+                <p>Keio University</p>
+                <div class="social">
+                  <!-- <a href=""><i class="fa fa-twitter"></i></a> -->
+                  <!-- <a href="https://www.facebook.com/LynxPeng" target="_blank" rel="noopener noreferrer"><i class="fa fa-facebook"></i></a> -->
+                  <!-- <a href=""><i class="fa fa-google-plus"></i></a> -->
+                  <!-- <a href=""><i class="fa fa-linkedin"></i></a> -->
+                </div>
+              </div>
+            </div>
+          </div>
+		  
+		  
+		  
+        </div>
+      </div>
+
+    </section>
+	
+	
+	<!--==========================
+      Program Committee (Reviewers)
+    ============================-->
+<!--
+    <section id="program_committee" class="wow fadeInUp">
+      <div class="container">
+        <div class="section-header">
+          <br><br>
+		  
+		  <h2>Program Committee</h2>
+		  </div>	  
+		  <table>
+			<tbody>
+				<tr>
+					<td>Chen Zhang</td>
+					<td>Tsinghua University</td>
+				</tr>
+				<tr>
+					<td>Dongliang Guo</td>
+					<td>University of Virginia</td>
+				</tr>
+				<tr>
+					<td>Hailing Wang</td>
+					<td>Tianjin University</td>
+				</tr>
+				<tr>
+					<td>Jianglin Lu</td>
+					<td>Northeastern University</td>
+				</tr>
+				<tr>
+					<td>Jiaqi Liu</td>
+					<td>Southern University of Science and Technology</td>
+				</tr>
+				<tr>
+					<td>Qifeng Wu</td>
+					<td>Northeastern University</td>
+				</tr>
+				<tr>
+					<td>Qihua Dong</td>
+					<td>Northeastern University</td>
+				</tr>
+				<tr>
+					<td>Yifan Wang&emsp;&emsp;&emsp;</td>
+					<td>Northeastern University</td>
+				</tr>
+				<tr>
+					<td>Yitian Zhang</td>
+					<td>Northeastern University</td>
+				</tr>
+				<tr>
+					<td>Yunkang Cao</td>
+					<td>Huazhong University of Science and Technology</td>
+				</tr>
+				<tr>
+					<td>Zhi Xu</td>
+					<td>Northeastern University</td>
+				</tr>
+				<tr>
+					<td>&emsp;</td>
+					<td>&emsp;</td>
+				</tr>
+				<tr>
+					<td>&emsp;</td>
+					<td>&emsp;</td>
+				</tr>
+				<tr>
+					<td>&emsp;</td>
+					<td>&emsp;</td>
+				</tr>
+			</tbody>
+		  </table>
+        
+      </div>
+
+    </section>
+
+-->
+	
+
+  </main>
+
+
+  <!--==========================
+    Footer
+  ============================-->
+  <footer id="footer">
+  <!--
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6 footer-info">
+            <img src="img/logo.png" alt="TheEvenet">
+            <p>In alias aperiam. Placeat tempore facere. Officiis voluptate ipsam vel eveniet est dolor et totam porro. Perspiciatis ad omnis fugit molestiae recusandae possimus. Aut consectetur id quis. In inventore consequatur ad voluptate cupiditate debitis accusamus repellat cumque.</p>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><i class="fa fa-angle-right"></i> <a href="#">Home</a></li>
+              <li><i class="fa fa-angle-right"></i> <a href="#">About us</a></li>
+              <li><i class="fa fa-angle-right"></i> <a href="#">Services</a></li>
+              <li><i class="fa fa-angle-right"></i> <a href="#">Terms of service</a></li>
+              <li><i class="fa fa-angle-right"></i> <a href="#">Privacy policy</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><i class="fa fa-angle-right"></i> <a href="#">Home</a></li>
+              <li><i class="fa fa-angle-right"></i> <a href="#">About us</a></li>
+              <li><i class="fa fa-angle-right"></i> <a href="#">Services</a></li>
+              <li><i class="fa fa-angle-right"></i> <a href="#">Terms of service</a></li>
+              <li><i class="fa fa-angle-right"></i> <a href="#">Privacy policy</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-contact">
+            <h4>Contact Us</h4>
+            <p>
+              A108 Adam Street <br>
+              New York, NY 535022<br>
+              United States <br>
+              <strong>Phone:</strong> +1 5589 55488 55<br>
+              <strong>Email:</strong> info@example.com<br>
+            </p>
+
+            <div class="social-links">
+              <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
+              <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
+              <a href="#" class="instagram"><i class="fa fa-instagram"></i></a>
+              <a href="#" class="google-plus"><i class="fa fa-google-plus"></i></a>
+              <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+	-->
+	
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong>TheEvent & MiRAGE 2025</strong>. All Rights Reserved
+      </div>
+      <div class="credits">
+        <!--
+          All the links in the footer should remain intact.
+          You can delete the links only if you purchased the pro version.
+          Licensing information: https://bootstrapmade.com/license/
+          Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=TheEvent
+        -->
+        Designed by <a href="https://bootstrapmade.com/" target="_blank" rel="noopener noreferrer">BootstrapMade</a>
+      </div>
+    </div>
+  </footer><!-- #footer -->
+
+  <a href="#" class="back-to-top"><i class="fa fa-angle-up"></i></a>
+
+  <!-- JavaScript Libraries -->
+  <script src="lib/jquery/jquery.min.js"></script>
+  <script src="lib/jquery/jquery-migrate.min.js"></script>
+  <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="lib/easing/easing.min.js"></script>
+  <script src="lib/superfish/hoverIntent.js"></script>
+  <script src="lib/superfish/superfish.min.js"></script>
+  <script src="lib/wow/wow.min.js"></script>
+  <script src="lib/venobox/venobox.min.js"></script>
+  <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+  <!-- Contact Form JavaScript File -->
+  <script src="contactform/contactform.js"></script>
+
+  <!-- Template Main Javascript File -->
+  <script src="js/main.js"></script>
+</body>
+
+</html>
